@@ -14,6 +14,7 @@ and performance optimization, enabling them to enhance user interface
 experiences across various online platforms.
 
 ### View the HTML & CSS module structure by following the [link](html/README.md)
+
 Коли ти сідаєш за навчання:
 
 Відкриваєш термінал у папці fson-128 (або просто відкриваєш цю папку у VS Code).
@@ -32,3 +33,9 @@ git pull — обов'язково роби це, якщо власник реп
 Або якщо власник (YK911) додав тебе як співавтора (Collaborator).
 
 Якщо це чужий навчальний репо, то git push видасть помилку (Access Denied). У такому разі ти зможеш тільки робити git pull (забирати оновлення), а свої зміни зберігати лише локально
+
+цей синтаксис зробить список\*3 в якому буде картинка і параграф і кожна картинка будуть починатись на img- і знаходитись в папці ./images/bestsellers
+ul>li\*3>img[src=./images/bestsellers/img-$]+p
+
+список з трьох в ньому картинка зі шляхом ./images/reviews там файли по порядку img-$.png ширина 200 висота 122 далі h3 далі параграф
+ul>li*3>img[src=./images/reviews/img-$.png][width=200][height=122]+h3+p
