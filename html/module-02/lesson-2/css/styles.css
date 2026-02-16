@@ -3,11 +3,23 @@ body{
     color:#111111;
     background-color: #fafafa;
 }
+/* Reset */
 ul,
 ol{
     /* прибрати точечки в списках */
     list-style-type: none;
 }
+a{
+    text-decoration: none;
+    color: currentColor;
+}
+button{
+    cursor: pointer ;
+}
+address{
+    font-style:normal;
+}
+
 /* #endregion */
 
 /* #region CommonStyles */
@@ -20,13 +32,14 @@ ol{
 .header {
 }
 .nav {
+
 }
 .nav-menu {
 }
 .nav-menu-item {
 }
 .nav-menu-link {
-    color: lightgreen
+    /* color: lightgreen */
 }
 .nav-menu-link:hover,.nav-menu-link:focus  {
     color:teal
@@ -77,11 +90,19 @@ ol{
 .benefits-item {}
 
 .benefits-caption {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.22222;
     color: #fff;
 }
 
 .benefits-desc {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28571;
+    letter-spacing: -0.02em;
     color: rgba(255, 255, 255, 0.7);
+    c
 }
 /* #endregion */
 
