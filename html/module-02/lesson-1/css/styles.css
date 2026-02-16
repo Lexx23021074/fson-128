@@ -1,6 +1,7 @@
 /* #region Base styles */
 body{
     color:#111111;
+    background-color: #fafafa;
 }
 ul,
 ol{
@@ -25,6 +26,12 @@ ol{
 .nav-menu-item {
 }
 .nav-menu-link {
+    color: lightgreen
+}
+.nav-menu-link:hover,.nav-menu-link:focus  {
+    color:teal
+}
+
 }
 
 /* #endregion */
@@ -60,16 +67,22 @@ ol{
 
 /* #endregion */
 
-/* #region Benefits */
-.benefits {}
+/* #region Benefits */ 
+.benefits {
+    background-color: #1e1823;
+}
 
 .benefits-list {}
 
 .benefits-item {}
 
-.benefits-caption {}
+.benefits-caption {
+    color: #fff;
+}
 
-.benefits-desc {}
+.benefits-desc {
+    color: rgba(255, 255, 255, 0.7);
+}
 /* #endregion */
 
 /* #region Buttons */
@@ -97,6 +110,7 @@ ol{
 /* #endregion */
 
 /* #region Made */
+
 .made {}
 
 .made-title {}
@@ -110,7 +124,12 @@ ol{
 .made-recipe-item {}
 /* #endregion */
 
-/* #region Footer */
+/* #region Products */
+
+
+/* #endregion */
+
+/* #region Footer */ 
 .footer {}
 
 .footer-slogan {}
