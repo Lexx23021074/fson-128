@@ -1,0 +1,133 @@
+/* #region Base styles */
+body{
+    color:#111111;
+}
+ul,
+ol{
+    /* прибрати точечки в списках */
+    list-style-type: none;
+}
+/* #endregion */
+
+/* #region CommonStyles */
+.accent-text{
+
+}
+/* #endregion */
+
+/* #region Header */
+.header {
+}
+.nav {
+}
+.nav-menu {
+}
+.nav-menu-item {
+}
+.nav-menu-link {
+}
+
+/* #endregion */
+
+/* #region Socials */
+.socials {
+}
+.socials-items {
+}
+.social-link {
+}
+.social-icons {
+}
+/* #endregion */
+
+/* #region Logo */
+.logo {
+}
+.logo-icon {
+}
+/* #endregion */
+
+/* #region Hero */
+
+
+.hero {}
+
+.hero-title {}
+
+.hero-link {}
+
+.hero-link-icon {}
+
+/* #endregion */
+
+/* #region Benefits */
+.benefits {}
+
+.benefits-list {}
+
+.benefits-item {}
+
+.benefits-caption {}
+
+.benefits-desc {}
+/* #endregion */
+
+/* #region Buttons */
+
+
+.btn{}
+.btn-accent{}
+.btn-primary {}
+.btn-secondary {}
+/* #endregion */
+
+/* #region Ingredients */
+
+.ingredients {}
+
+.ingredients-title {}
+
+.ingredients-list {}
+
+.ingredients-item {}
+
+.ingredients-ill {}
+
+.ingredients-subtitle {}
+/* #endregion */
+
+/* #region Made */
+.made {}
+
+.made-title {}
+
+.made-img {}
+
+.made-caption {}
+
+.made-recipe {}
+
+.made-recipe-item {}
+/* #endregion */
+
+/* #region Footer */
+.footer {}
+
+.footer-slogan {}
+
+.footer-caption {}
+
+.footer-address {}
+
+.footer-contacts-item {}
+
+.footer-contacts {}
+
+.footer-contacts-link {}
+
+.menu {}
+
+.menu-item {}
+
+.menu-link {}
+/* #endregion */
