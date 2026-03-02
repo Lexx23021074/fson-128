@@ -39,3 +39,5 @@ ul>li\*3>img[src=./images/bestsellers/img-$]+p
 
 список з трьох в ньому картинка зі шляхом ./images/reviews там файли по порядку img-$.png ширина 200 висота 122 далі h3 далі параграф
 ul>li*3>img[src=./images/reviews/img-$.png][width=200][height=122]+h3+p
+
+toptal.com - коди спецсимволів
