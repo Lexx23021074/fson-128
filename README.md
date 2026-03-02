@@ -41,3 +41,7 @@ ul>li\*3>img[src=./images/bestsellers/img-$]+p
 ul>li*3>img[src=./images/reviews/img-$.png][width=200][height=122]+h3+p
 
 toptal.com - коди спецсимволів
+
+https://chromewebstore.google.com/detail/inspect-css/fbopfffegfehobgoommphghohinpkego
+екстеншен для гугл хрома зля інспектування стилів на сторінці
+
