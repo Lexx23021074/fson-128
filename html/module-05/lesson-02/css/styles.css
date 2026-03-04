@@ -10,7 +10,7 @@ body:has(.backdrop.is-open) {
   overflow-y: hidden;
 }
 
-/* Reset */
+/* Reset */ 
 h1,
 h2,
 h3,
@@ -782,8 +782,75 @@ img {
 }
 /* #endregion */
 
-.feedback-form-btn {
-  padding: 10px 20px;
-  border: 1px solid rebeccapurple;
-  border-radius: 10px;
+/* #region ModalForm */
+.feedback-form{
 }
+
+.feedback-wrapper {
+  margin-bottom: 18px;
+}
+
+.feedback-label {
+  display: block;
+  margin-bottom: 8px;
+  color: rgba(64, 64, 64, 0.3);
+}
+
+.feedback-field {
+  position: relative;
+}
+
+.feedback-input {
+  width: 100%;
+  height: 68px;
+  padding: 22px 62px;
+  border: 1.5px solid rgba(17, 17, 17, 0.05);
+  border-radius: 13px;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.03);
+  outline: none;
+  transition: border-color 150ms ease-in;
+}
+
+.feedback-input:focus {
+  border-color: #fd9222;
+}
+
+.feedback_icon {
+  position: absolute;
+  top: 50%;
+  left: 25px;
+  transform: translateY(-50%);
+  fill: none;
+  stroke: #404040;
+  pointer-events: none;
+    transition: stroke 150ms ease-in;
+
+}
+
+.feedback-input:focus +.feedback_icon {
+  stroke:#fd9222;
+}
+.feedback-comment{
+    width: 100%;
+  height: 137px;
+  padding: 22px 24px;
+
+  font-size: 18px;
+
+  border: 1.5px solid rgba(17, 17, 17, 0.05);
+  border-radius: 13px;
+  outline: none;
+  resize: none;
+  transition: border-color 150ms ease-in;
+}
+.feedback-comment:focus{
+  border-color: #fd9222;
+  transition: border-color 150ms ease-in;
+}
+
+
+
+.feedback-comment::placeholder{
+  color: rgba(64, 64, 64, 0.3);
+}
+/* #endregion */

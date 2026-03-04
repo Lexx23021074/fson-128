@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -669,51 +669,68 @@
     <!-- Modal window -->
     <div class="backdrop is-open">
       <div class="modal">
-        <button class="modal-btn" type="button" aria-label="Close modal button">
-          <svg class="modal-btn-icon" width="28" height="28">
-            <use href="./images/icons.svg#close"></use>
-          </svg>
-        </button>
-        <p class="modal-slogan">
-          LEAVE A REVIEW ABOUT <span class="accent-text">OUR CHOCOLATE</span>
-        </p>
+          <button class="modal-btn" type="button" aria-label="Close modal button">
+            <svg class="modal-btn-icon" width="28" height="28">
+              <use href="./images/icons.svg#close"></use>
+            </svg>
+          </button>
+          <p class="modal-slogan">
+            LEAVE A REVIEW ABOUT <span class="accent-text">OUR CHOCOLATE</span>
+          </p>
 
-        <form
-          class="feedback-form"
-          name="feedback"
-          autocomplete="off"
-          novalidate
-        >
-          <div>
-            <label for="userName">Name</label>
-            <input
-              type="text"
-              id="userName"
-              name="userName"
-              placeholder="Jacob Mercer"
-            />
-          </div>
-          <div>
-            <label for="userEmail">Email</label>
-            <input type="email" id="userEmail" placeholder="example@mail.com" />
-          </div>
-          <div>
-            <label for="userPassword">Password</label>
-            <input type="password" id="userPassword" name="userPassword" />
-          </div>
-          <div>
-            <label for="userAgreement">Agreement</label>
-            <input type="checkbox" id="userAgreement" name="userAgreement" />
-          </div>
+          <form class="feedback-form" name="feedback">
+              <div class="feedback-wrapper">
+                <label class="feedback-label" for="userName">Name</label>
+                  <div class="feedback-field">
+                    <input class="feedback-input"
+                      type="text"
+                      id="userName"
+                      name="userName"
+                    />
+                    <svg class="feedback_icon" width="24" height="24">
+                      <use href="./images/icons.svg#user"></use>
+                    </svg>
+                  </div>
+              </div >
+              <div class="feedback-wrapper">
+                <label class="feedback-label" for="userEmail">Email</label>
+                  <div class="feedback-field">
+                    <input class="feedback-input"
+                      type="email"
+                      id="userEmail"
+                      name="userEmail"
+                    />
+                    <svg class="feedback_icon" width="24" height="24">
+                      <use href="./images/icons.svg#email"></use>
+                    </svg>
+                  </div>
+              </div >
+              <div class="feedback-wrapper">
+                <label class="feedback-label" for="userPhone">Phone number</label>
+                  <div class="feedback-field">
+                    <input class="feedback-input"
+                      type="tel"
+                      id="userPhone"
+                      name="userPhone"
+                    />
+                    <svg class="feedback_icon" width="24" height="24">
+                      <use href="./images/icons.svg#phone"></use>
+                    </svg>
+                  </div>
+              </div >
 
-          <label>
-            Comment
+            <div class="feedback-wrapper">
+              <label class="feedback-label" for="userComment">Comment</label>
+              <textarea
+              class="feedback-comment"
+              name="userComment"
+              id="userComment"
+              rows="4"
+              placeholder="Enter text"
+              ></textarea>
+              </div>
 
-            <textarea name=""></textarea>
-          </label>
-
-          <button class="feedback-form-btn" type="submit">Send</button>
-          <button class="feedback-form-btn" type="reset">Reset data</button>
+          <button class="btn btn-accent type="submit">Send</button>
         </form>
       </div>
     </div>
